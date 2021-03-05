@@ -1,0 +1,297 @@
+{
+	"actions": [
+		{
+			"name": "/actions/main/in/controllerleft",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/controllerright",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special1",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special2",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special3",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special4",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special5",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special6",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special7",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/special8",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/skeletonleft",
+			"type": "skeleton",
+			"skeleton": "/skeleton/hand/left",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/skeletonright",
+			"type": "skeleton",
+			"skeleton": "/skeleton/hand/right",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/out/vibrateleft",
+			"type": "vibration",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/out/vibrateright",
+			"type": "vibration",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/open_console",
+			"type": "boolean",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/FireArrowLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/FireArrowRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/GrabLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/GrabRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TeleportLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TeleportRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/HeadsetOn",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/ShowBindingsInHMD",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TriggerLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TriggerRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/MoveLeft_X,MoveLeft_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/MoveRight_X axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MoveRight_X,MoveRight_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/SqueezeLeft axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SqueezeRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionLeft_X axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionLeft_X,TeleportDirectionLeft_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionRight_X,TeleportDirectionRight_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/SteamVRBindings axis",
+			"type": "vector1"
+		}
+	],
+	"action_sets": [
+		{
+			"name": "/actions/main",
+			"usage": "leftright"
+		}
+	],
+	"default_bindings": [
+		{
+			"controller_type": "gamepad",
+			"binding_url": "gamepad.json"
+		},
+		{
+			"controller_type": "holographic_controller",
+			"binding_url": "holographic_controller.json"
+		},
+		{
+			"controller_type": "indexhmd",
+			"binding_url": "indexhmd.json"
+		},
+		{
+			"controller_type": "knuckles",
+			"binding_url": "knuckles.json"
+		},
+		{
+			"controller_type": "oculus_touch",
+			"binding_url": "oculus_touch.json"
+		},
+		{
+			"controller_type": "rift",
+			"binding_url": "rift.json"
+		},
+		{
+			"controller_type": "vive",
+			"binding_url": "vive.json"
+		},
+		{
+			"controller_type": "vive_controller",
+			"binding_url": "vive_controller.json"
+		},
+		{
+			"controller_type": "vive_cosmos_controller",
+			"binding_url": "vive_cosmos_controller.json"
+		},
+		{
+			"controller_type": "vive_pro",
+			"binding_url": "vive_pro.json"
+		},
+		{
+			"controller_type": "vive_tracker",
+			"binding_url": "vive_tracker.json"
+		},
+		{
+			"controller_type": "vive_tracker_camera",
+			"binding_url": "vive_tracker_camera.json"
+		},
+		{
+			"controller_type": "knuckles",
+			"binding_url": "knuckles.json"
+		},
+		{
+			"controller_type": "vive_controller",
+			"binding_url": "vive_controller.json"
+		},
+		{
+			"controller_type": "vive_cosmos_controller",
+			"binding_url": "vive_cosmos_controller.json"
+		},
+		{
+			"controller_type": "oculus_touch",
+			"binding_url": "oculus_touch.json"
+		},
+		{
+			"controller_type": "holographic_controller",
+			"binding_url": "holographic_controller.json"
+		},
+		{
+			"controller_type": "indexhmd",
+			"binding_url": "indexhmd.json"
+		},
+		{
+			"controller_type": "vive",
+			"binding_url": "vive.json"
+		},
+		{
+			"controller_type": "vive_pro",
+			"binding_url": "vive_pro.json"
+		},
+		{
+			"controller_type": "rift",
+			"binding_url": "rift.json"
+		},
+		{
+			"controller_type": "vive_tracker_camera",
+			"binding_url": "vive_tracker_camera.json"
+		},
+		{
+			"controller_type": "gamepad",
+			"binding_url": "gamepad.json"
+		}
+	],
+	"localization": [
+		{
+			"language_tag": "en_us",
+			"/actions/main/in/controllerleft": "Left Controller [Pose]",
+			"/actions/main/in/controllerright": "Right Controller [Pose]",
+			"/actions/main/in/special1": "Special 1 [Tracker]",
+			"/actions/main/in/special2": "Special 2 [Tracker]",
+			"/actions/main/in/special3": "Special 3 [Tracker]",
+			"/actions/main/in/special4": "Special 4 [Tracker]",
+			"/actions/main/in/special5": "Special 5 [Tracker]",
+			"/actions/main/in/special6": "Special 6 [Tracker]",
+			"/actions/main/in/special7": "Special 7 [Tracker]",
+			"/actions/main/in/special8": "Special 8 [Tracker]",
+			"/actions/main/in/skeletonleft": "Skeleton (Left)",
+			"/actions/main/in/skeletonright": "Skeleton (Right)",
+			"/actions/main/out/vibrateleft": "Haptic (Left)",
+			"/actions/main/out/vibrateright": "Haptic (Right)",
+			"/actions/main/in/open_console": "Open Console",
+			"/actions/main/in/FireArrowLeft": "FireArrowLeft",
+			"/actions/main/in/FireArrowRight": "FireArrowRight",
+			"/actions/main/in/GrabLeft": "GrabLeft",
+			"/actions/main/in/GrabRight": "GrabRight",
+			"/actions/main/in/TeleportLeft": "TeleportLeft",
+			"/actions/main/in/TeleportRight": "TeleportRight",
+			"/actions/main/in/HeadsetOn": "HeadsetOn",
+			"/actions/main/in/ShowBindingsInHMD": "ShowBindingsInHMD",
+			"/actions/main/in/TriggerLeft": "TriggerLeft",
+			"/actions/main/in/TriggerRight": "TriggerRight",
+			"/actions/main/in/MoveLeft_X,MoveLeft_Y X Y_axis2d": "MoveLeft",
+			"/actions/main/in/MoveRight_X axis": "MoveRight_X",
+			"/actions/main/in/MoveRight_X,MoveRight_Y X Y_axis2d": "MoveRight",
+			"/actions/main/in/SqueezeLeft axis": "SqueezeLeft",
+			"/actions/main/in/SqueezeRight axis": "SqueezeRight",
+			"/actions/main/in/TeleportDirectionLeft_X axis": "TeleportDirectionLeft_X",
+			"/actions/main/in/TeleportDirectionLeft_X,TeleportDirectionLeft_Y X Y_axis2d": "TeleportDirectionLeft",
+			"/actions/main/in/TeleportDirectionRight_X,TeleportDirectionRight_Y X Y_axis2d": "TeleportDirectionRight",
+			"/actions/main/in/SteamVRBindings axis": "SteamVRBindings",
+			"/actions/main": "Main Game Actions"
+		}
+	]
+}

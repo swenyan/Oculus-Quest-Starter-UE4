@@ -1,0 +1,176 @@
+{
+	"name": "Default bindings for Oculus Touch",
+	"controller_type": "oculus_touch",
+	"bindings":
+	{
+		"/actions/main":
+		{
+			"sources": [
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/FireArrowLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/FireArrowRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TeleportLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TeleportRight"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MoveLeft_X,MoveLeft_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MoveRight_X,MoveRight_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SqueezeLeft axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SqueezeRight axis"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/TeleportDirectionLeft_X,TeleportDirectionLeft_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/TeleportDirectionRight_X,TeleportDirectionRight_Y X Y_axis2d"
+						}
+					}
+				}
+			],
+			"poses": [
+				{
+					"output": "/actions/main/in/controllerleft",
+					"path": "/user/hand/left/pose/raw",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/controllerright",
+					"path": "/user/hand/right/pose/raw"
+				}
+			],
+			"skeleton": [
+				{
+					"output": "/actions/main/in/skeletonleft",
+					"path": "/user/hand/left/input/skeleton/left"
+				},
+				{
+					"output": "/actions/main/in/skeletonright",
+					"path": "/user/hand/right/input/skeleton/right"
+				}
+			],
+			"haptics": [
+				{
+					"output": "/actions/main/out/vibrateleft",
+					"path": "/user/hand/left/output/haptic"
+				},
+				{
+					"output": "/actions/main/out/vibrateright",
+					"path": "/user/hand/right/output/haptic"
+				}
+			]
+		}
+	},
+	"description": "SteamVRInput"
+}

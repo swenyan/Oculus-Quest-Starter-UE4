@@ -1,0 +1,25 @@
+{
+	"name": "Default bindings for Vive Pro Headset",
+	"controller_type": "vive_pro",
+	"last_edited_by": "UnrealEngine",
+	"bindings":
+	{
+		"/actions/main":
+		{
+			"sources": [
+				{
+					"mode": "button",
+					"path": "/user/head/proximity",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/HeadsetOn"
+						}
+					}
+				}
+			]
+		}
+	},
+	"description": "SteamVRInput-11590370"
+}

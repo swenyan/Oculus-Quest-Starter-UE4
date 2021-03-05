@@ -1,0 +1,25 @@
+{
+	"name": "Default bindings for Rift Headset",
+	"controller_type": "rift",
+	"last_edited_by": "UnrealEngine",
+	"bindings":
+	{
+		"/actions/main":
+		{
+			"sources": [
+				{
+					"mode": "button",
+					"path": "/user/head/proximity",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/HeadsetOn"
+						}
+					}
+				}
+			]
+		}
+	},
+	"description": "SteamVRInput-11590370"
+}

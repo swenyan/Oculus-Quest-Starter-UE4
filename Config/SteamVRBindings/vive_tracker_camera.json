@@ -1,0 +1,254 @@
+{
+	"name": "Default bindings for Vive Trackers",
+	"controller_type": "vive_tracker_camera",
+	"last_edited_by": "UnrealEngine",
+	"bindings":
+	{
+		"/actions/main":
+		{
+			"sources": [
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/FireArrowLeft"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/FireArrowRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TeleportLeft"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TeleportRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/ShowBindingsInHMD"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/ShowBindingsInHMD"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerLeft"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerRight"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MoveLeft_X,MoveLeft_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MoveRight_X,MoveRight_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SqueezeLeft axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SqueezeRight axis"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/TeleportDirectionLeft_X,TeleportDirectionLeft_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/TeleportDirectionRight_X,TeleportDirectionRight_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SteamVRBindings axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SteamVRBindings axis"
+						}
+					}
+				}
+			],
+			"poses": [
+				{
+					"output": "/actions/main/in/special1",
+					"path": "/user/hand/left/pose/back",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/special2",
+					"path": "/user/hand/right/pose/back",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/special3",
+					"path": "/user/hand/left/pose/front",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/special4",
+					"path": "/user/hand/right/pose/front",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/special5",
+					"path": "/user/hand/left/pose/frontandrolled",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/special6",
+					"path": "/user/hand/right/pose/frontandrolled",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/special7",
+					"path": "/user/hand/left/pose/pistolgrip",
+					"requirement": "optional"
+				},
+				{
+					"output": "/actions/main/in/special8",
+					"path": "/user/hand/right/pose/pistolgrip",
+					"requirement": "optional"
+				}
+			]
+		}
+	},
+	"description": "SteamVRInput-11590370"
+}
