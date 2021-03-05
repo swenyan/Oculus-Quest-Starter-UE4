@@ -33,7 +33,9 @@ Now the project should be ready to launch on Oculus Quest.
 
 ## LAUNCH ON QUEST
 With all settings done, connect your Quest to PC, disable oculus link, make sure developer mode and debugging is enabled.
+
 Use the launch drop-down menu to launch the preview on Quest.
+
 ![](https://raw.github.com/swenyan/Oculus-Quest-Starter-UE4/master/Readme/readme_6.png)
 
 If the Quest does not show up in the drop-down menu, open Project Launcher to find it.
