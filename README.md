@@ -1,7 +1,12 @@
 # Oculus-Quest-Starter-UE4
+![](https://raw.github.com/swenyan/Oculus-Quest-Starter-UE4/master/Readme/readme_1.png)
+
 Oculus Quest Starter is a boilerplate project ready for Oculus Quest deployment. If you are new to Oculus Quest or Android development, setting up the environment could be really frustrating. This project (and this documentation) will probably save your day, seriously.
 
 Supported Engine Version: Unreal Engine 4.25-4.26
+
+Want to add Alyx-like gravity gloves in your game? Check this plugin:
+https://www.unrealengine.com/marketplace/en-US/product/vr-gravity-grab-oculus
 
 ## BEFORE YOU START
 Before you launch UE4 and dive into this project, you should get your Android SDK, NDK and JDK installed. If you have no idea about those SDK, NDK, JDK stuff, never mind, just remember you need to have them to make apps for Oculus Quest.
