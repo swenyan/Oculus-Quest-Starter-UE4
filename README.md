@@ -1,7 +1,15 @@
 # Oculus-Quest-Starter-UE4
 ![](https://raw.github.com/swenyan/Oculus-Quest-Starter-UE4/master/Readme/readme_0.png)
 
-Oculus Quest Starter is a boilerplate project ready for Oculus Quest deployment. If you are new to Oculus Quest or Android development, setting up the development environment could be really frustrating. This project (and this documentation) can simplify the setup process and will probably save your day, seriously.
+Oculus Quest Starter is a boilerplate project ready for Oculus Quest deployment. Using this project can simplify the initial setup process.
+
+Oculus Quest is a fantastic device. However, for those who are new to Oculus Quest or Android development, setting up the development environment could be really frustrating, and many beginners are likely to quit even before they managed to get their first app built and run on the Quest. If you are one of them, this project (and its documentation) will probably save your day, seriously.
+
+Features:
+
+ Oculus Quest 1 and 2 ready. Just set the Android SDK path and you are good to go.
+ Step-by-step tutorial on how to install Android SDK, NDK, JDK.
+ Motion Controller configured with proper offset and rotation for Oculus devices.
 
 Supported Engine Version: Unreal Engine 4.25-4.26
 
