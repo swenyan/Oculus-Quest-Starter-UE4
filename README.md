@@ -5,16 +5,13 @@ Oculus Quest Starter is a boilerplate project ready for Oculus Quest deployment.
 
 Oculus Quest is a fantastic device. However, for those who are new to Oculus Quest or Android development, setting up the development environment could be really frustrating, and many beginners are likely to quit even before they managed to get their first app built and run on the Quest. If you are one of them, this project (and its documentation) will probably save your day, seriously.
 
-Features:
+## Features
 
- Oculus Quest 1 and 2 ready. Just set the Android SDK path and you are good to go.
- Step-by-step tutorial on how to install Android SDK, NDK, JDK.
- Motion Controller configured with proper offset and rotation for Oculus devices.
+- Oculus Quest 1 and 2 ready. Just set the Android SDK path and you are good to go.
+- Step-by-step tutorial on how to install Android SDK, NDK, JDK.
+- Motion Controller configured with proper offset and rotation for Oculus devices.
 
 Supported Engine Version: Unreal Engine 4.25-4.26
-
-#### Want to add Alyx-like gravity gloves in your game? Check this plugin:
-https://www.unrealengine.com/marketplace/en-US/product/vr-gravity-grab-oculus
 
 ## BEFORE YOU START
 Before you launch UE4 and dive into this project, you should get your Android SDK, NDK and JDK installed. If you have no idea about those SDK, NDK, JDK stuff, never mind, just remember you need to have them to make apps for Oculus Quest.
@@ -72,3 +69,6 @@ https://developer.oculus.com/documentation/unreal/unreal-quick-start-guide-quest
 Setting Up Android SDK and NDK for Unreal:
 
 https://docs.unrealengine.com/en-US/SharingAndReleasing/Mobile/Android/Setup/AndroidStudio/index.html
+
+#### Want to add hand physics and Alyx-like gravity gloves in your game? Check this plugin:
+https://www.unrealengine.com/marketplace/en-US/product/vr-gravity-grab-oculus
